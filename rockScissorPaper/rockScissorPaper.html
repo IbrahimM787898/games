@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="rockScissorPaper.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- challenge 3: Rock, Paper, Scissors -->
+    <div class="container-3">
+      <h2>Challenge 3: Rock, Paper, Scissors</h2>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+        <img
+          src="29-294338_stones-and-rocks-png-image-rock-transparent-background.png"
+          alt="rock"
+          srcset=""
+          id="rock"
+          width="150px"
+          height="150px"
+          onclick="rpsGame(this)"
+        />
+        <img
+          src="173-1739866_cut-clipart-scissors-dotted-line-png-scissors-black.png"
+          alt="scissors"
+          srcset=""
+          id="scissors"
+          width="150px"
+          height="150px"
+          onclick="rpsGame(this)"
+        />
+        <img
+          src="4348e7b22731faa5762a501a778f8f75.png"
+          alt="paper"
+          srcset=""
+          id="paper"
+          width="150px"
+          height="150px"
+          onclick="rpsGame(this)"
+        />
+      </div>
+      <div class="flex-box-container-1">
+        <div>
+          <button
+            class="btn btn-success"
+            id="cat-generator"
+            onclick="restart()"
+          >
+            Restart
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="rockScissorPaper.js"></script>
+  </body>
+</html>

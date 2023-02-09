@@ -1,0 +1,43 @@
+/* cheallenge 3: Rock, Scissors and Paper */
+.flex-box-rps img:hover {
+  box-shadow: 0 10px 50px rgba(37, 58, 233, 1);
+}
+
+.container-3 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box-rps {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.container-1 {
+  border: 1px solid black;
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+}
+
+.flex-box-container-1 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flex-box-container-1 div {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  align-items: center;
+}
